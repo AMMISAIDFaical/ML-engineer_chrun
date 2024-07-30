@@ -17,7 +17,8 @@ Predict customer churn for TELCO Inc and recommend personalized discounts to max
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
-│
+    └── results        <- result csv on the test set.
+│    
 ├── docs               <- A default mkdocs project; see mkdocs.org for details
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries

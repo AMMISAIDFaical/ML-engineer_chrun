@@ -51,3 +51,114 @@ Predict customer churn for TELCO Inc and recommend personalized discounts to max
 
 --------
 
+# TELCO Churn Prediction Project
+
+## Task Description
+This project aims to predict customer churn for TELCO Inc., a telecommunications company. The primary objectives are:
+- Rank customers by their probability of churning.
+- Determine which customers should be contacted to minimize churn.
+- Recommend personalized discounts to maximize future profits.
+
+The results are provided in a CSV file containing churn predictions, recommended customer contacts, and suggested discounts.
+
+## Project Structure
+- **mlflow/**: Directory for MLflow experiment tracking and model versioning.
+- **__init__.py**: Initialization file to make the directory importable as a module.
+- **common.py**: Utility functions for model loading, plotting, and discount recommendation.
+- **config.ini**: Configuration file for project parameters and MLflow settings.
+- **mlflow_exp.py**: Script for managing MLflow experiments, tracking metrics, and saving models.
+- **predict.py**: Script for evaluating the model, generating predictions, and saving results.
+- **train.py**: Script for training the churn prediction model and saving it for future use.
+
+## Prerequisites
+- Python 3.8 or later
+- pip
+- MLflow
+
+## Installation
+1. **Clone the Project Repository**:
+   ```sh
+   git clone https://github.com/AMMISAIDFaical/ML-engineer_chrun.git
+
+Here's your content formatted in Markdown:
+
+```markdown
+## Install Dependencies
+
+```sh
+pip install -r requirements.txt
+```
+
+## Set Up MLflow
+
+1. Ensure MLflow is installed and set up correctly.
+2. Configure the `config.ini` file with the appropriate settings for MLflow tracking.
+
+## Setup and Usage
+
+### Configuration
+
+- Edit the `config.ini` file to set up paths and parameters for MLflow and data files.
+
+### Data Preparation
+
+- Place the training and test data CSV files in the appropriate directory.
+
+### Train the Churn Prediction Model
+
+```sh
+python train.py
+```
+
+This script will:
+- Load and preprocess the data.
+- Train the model using the training dataset.
+- Save the trained model for future use.
+
+### Predict Churn and Recommend Actions
+
+```sh
+python predict.py
+```
+
+This script will:
+- Load the test data.
+- Load the trained model.
+- Generate predictions on the test data.
+- Evaluate the model using ROC AUC score.
+- Save the results in a CSV file.
+
+### Output CSV
+
+The output file `cv_grid_xgb_results.csv` will be saved in `../data/results/` and will contain:
+- `CUSTOMER_ID`: Unique identifier for each customer.
+- `CHURN_Ground_truth_Label`: Actual churn status (LEAVE or STAY).
+- `CHURN_PREDS`: Predicted churn status (LEAVE or STAY).
+- `CHURN_PROBABILITY`: Probability of churn.
+- `CLIENT_TO_CONTACT`: Whether the customer should be contacted (YES or NO).
+- `DISCOUNT`: Recommended discount to offer.
+- `Rank`: Rank based on the probability of churn.
+
+## Notes
+
+- Ensure that dataset files are correctly formatted and placed in the specified directories.
+- The project includes scripts to train, evaluate, and make predictions using the churn prediction model.
+- Modify `config.ini` and scripts as needed to fit your specific setup and requirements.
+
+## Requirements
+
+List of required Python packages:
+
+```txt
+pandas
+scikit-learn
+numpy
+xgboost
+mlflow
+matplotlib
+```
+
+## Metrics
+
+The model's performance is evaluated using the ROC AUC metric.
+```

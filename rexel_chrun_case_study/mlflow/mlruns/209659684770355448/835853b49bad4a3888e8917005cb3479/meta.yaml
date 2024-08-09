@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/209659684770355448/835853b49bad4a3888e8917005cb3479/artifacts
+end_time: 1723194632629
+entry_point_name: ''
+experiment_id: '209659684770355448'
+lifecycle_stage: active
+run_id: 835853b49bad4a3888e8917005cb3479
+run_name: puzzled-worm-398
+run_uuid: 835853b49bad4a3888e8917005cb3479
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723194624844
+status: 3
+tags: []
+user_id: Faical

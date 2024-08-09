@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/209659684770355448/e03563589017473c8b852d049848c20f/artifacts
+end_time: 1723191194762
+entry_point_name: ''
+experiment_id: '209659684770355448'
+lifecycle_stage: active
+run_id: e03563589017473c8b852d049848c20f
+run_name: bold-midge-272
+run_uuid: e03563589017473c8b852d049848c20f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723191186475
+status: 3
+tags: []
+user_id: Faical

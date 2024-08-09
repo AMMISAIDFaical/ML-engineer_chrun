@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/209659684770355448/81d6f62a7df7475db877747864df29ac/artifacts
+end_time: 1723194272120
+entry_point_name: ''
+experiment_id: '209659684770355448'
+lifecycle_stage: active
+run_id: 81d6f62a7df7475db877747864df29ac
+run_name: delicate-whale-497
+run_uuid: 81d6f62a7df7475db877747864df29ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723194265228
+status: 3
+tags: []
+user_id: Faical

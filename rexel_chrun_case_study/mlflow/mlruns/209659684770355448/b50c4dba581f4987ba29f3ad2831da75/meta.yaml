@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/209659684770355448/b50c4dba581f4987ba29f3ad2831da75/artifacts
+end_time: 1723194624801
+entry_point_name: ''
+experiment_id: '209659684770355448'
+lifecycle_stage: active
+run_id: b50c4dba581f4987ba29f3ad2831da75
+run_name: sneaky-ox-987
+run_uuid: b50c4dba581f4987ba29f3ad2831da75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723194607993
+status: 3
+tags: []
+user_id: Faical

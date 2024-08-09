@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/209659684770355448/ed733c0aa3e64a7287345d6a38c3cd82/artifacts
+end_time: 1723194607947
+entry_point_name: ''
+experiment_id: '209659684770355448'
+lifecycle_stage: active
+run_id: ed733c0aa3e64a7287345d6a38c3cd82
+run_name: exultant-robin-236
+run_uuid: ed733c0aa3e64a7287345d6a38c3cd82
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723194597466
+status: 3
+tags: []
+user_id: Faical

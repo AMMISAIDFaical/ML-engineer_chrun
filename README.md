@@ -1,8 +1,5 @@
 # Chrun case study
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
 
 Predict customer churn for TELCO Inc and recommend personalized discounts to maximize future profit using a provided dataset.
 
